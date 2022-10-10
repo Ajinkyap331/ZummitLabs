@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  box-shadow: 0 8px 16px rgb(0 0 0 / 6%);
+}
+
+.left-navbar > img {
+  width: 150px;
+}
+
+.right-navbar {
+  align-items: center;
+  display: flex;
+  gap: 30px;
+}
+
+
+.right-navbar > div {
+  font-weight: bold;
+}
+
+.right-navbar > button {
+  padding: 12px 18px;
+  border-radius: 20px;
+  font-weight: bolder;
+  color: white;
+  background-color: #48bf84;
+}
+
+  

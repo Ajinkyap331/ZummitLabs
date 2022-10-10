@@ -1,0 +1,56 @@
+.main-area {
+  display: flex;
+  height: 400px;
+  color: #4b5563;
+  width: 88vw;
+  justify-content: space-evenly;
+  padding: 5vw;
+}
+
+.left-main {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.right-main {
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-main > img {
+  width: 500px;
+}
+
+
+.main-btn-container > button{
+    margin: 10px 0;
+}
+
+.main-btn-container :first-child {
+  background-color: #48bf84;
+  text-decoration: none;
+  color: white;
+  padding: 0.875rem 2.25rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3125rem;
+  margin-right: 1rem;
+  max-width: 288px;
+}
+
+.main-btn-container :nth-child(2) {
+  background-color: #0d2129;
+  color: white;
+  text-decoration: none;
+  padding: 0.875rem 2.25rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  max-width: 229px;
+  border-radius: 0.3125rem;
+}

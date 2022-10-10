@@ -1,0 +1,46 @@
+.trusted-comp {
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.5rem;
+  font-size: 2rem;
+  line-height: 1.375;
+  font-weight: 700;
+  margin-top: 20px;
+  color: #00353b;
+}
+
+.container {
+  width: 98vw;
+  overflow: hidden;
+}
+.marquee {
+  display: block;
+  position: relative;
+  width: 1600px;
+  height: 50px;
+  animation: scroll 10s linear infinite;
+}
+
+.marquee:hover {
+  animation-play-state: paused;
+}
+
+.img1 {
+  width: 150px;
+  height: 30px;
+  /* background-color: green; */
+  margin: 3px;
+  float: left;
+}
+
+/* Make it move */
+@keyframes scroll {
+  0% {
+    left: 100px;
+  }
+  100% {
+    left: -700px;
+  }
+}
