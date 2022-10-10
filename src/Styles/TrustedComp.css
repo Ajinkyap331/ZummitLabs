@@ -11,36 +11,207 @@
   color: #00353b;
 }
 
-.container {
-  width: 98vw;
+#maindiv {
   overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  width: 97%;
+  padding: 20px;
 }
-.marquee {
-  display: block;
-  position: relative;
-  width: 1600px;
+
+#div1 {
+  display: inline-block;
+  animation: marquee 20s linear infinite;
+  display: flex;
+  width: max-content;
+  gap: 100px;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(130%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.work-experience {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.work-experience > section {
+  background-color: #fcd8ca;
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  height: 410px;
+  justify-content: space-evenly;
+  border-radius: 25px;
+  align-items: center;
+}
+
+.work-experience > section :nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.work-experience > section :nth-child(1) > section {
+  background-color: white;
+  width: max-content;
+  font-size: 14px;
+  font-weight: 700;
+  color: #1f2937;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.work-experience > section :nth-child(2) {
+  width: 80%;
+  color: #1f2937;
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: 600;
+  text-align: center;
+}
+
+.work-experience > section :nth-child(3) {
+  width: 80%;
+  color: #1f2937;
+  text-align: center;
+}
+
+.work-experience > section :nth-child(4) {
+  display: flex;
+  justify-content: center;
+}
+.work-experience > section :nth-child(4) > button {
+  padding: 0.75rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #1f2937;
+  border-radius: 8px;
+  background-color: #1f2937;
+  color: #fff;
+  font-weight: 500;
+  width: max-content;
+}
+
+.placement-offers {
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.5rem;
+  font-size: 2rem;
+  line-height: 1.375;
+  /* font-weight: 700; */
+  margin-top: 20px;
+}
+
+.how-it-works-heading {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: -0.05em;
+  color: #3f4b52;
+  margin: 0 7vw 16px;
+}
+
+.how-it-works {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.how-it-works-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.how-it-works-left > section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.how-it-works-left > section > img {
+  width: 32px;
+  height: 32px;
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.how-it-works-left > section > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.how-it-works-right > img {
+  max-width: 40vw;
+}
+
+.unique-features {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.unique-features > div {
+  width: 85%;
+}
+
+.unique-features > div > article {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: -0.05em;
+  color: #3f4b52;
+  margin: 0 0 16px;
+}
+
+.unique-features > div > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.unique-features > div > div > section {
+  width: 400px;
+}
+
+.unique-features > div > section {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3f4b52;
+}
+
+.unique-features > div > div > section > img {
+  width: 50px;
   height: 50px;
-  animation: scroll 10s linear infinite;
+  margin: 30px 30px 30px 0;
 }
 
-.marquee:hover {
-  animation-play-state: paused;
+.unique-features > div > div > section :nth-child(2) {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: -0.05em;
+  color: #3f4b52;
+  margin: 0 0 16px;
 }
 
-.img1 {
-  width: 150px;
-  height: 30px;
-  /* background-color: green; */
-  margin: 3px;
-  float: left;
-}
-
-/* Make it move */
-@keyframes scroll {
-  0% {
-    left: 100px;
-  }
-  100% {
-    left: -700px;
-  }
+.unique-features > div > div > section :nth-child(3) {
+  font-size: 15px;
+  line-height: 27px;
+  color: #3f4b52;
 }

@@ -1,8 +1,9 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 10px 130px;
   box-shadow: 0 8px 16px rgb(0 0 0 / 6%);
+
 }
 
 .left-navbar > img {
@@ -12,7 +13,7 @@
 .right-navbar {
   align-items: center;
   display: flex;
-  gap: 30px;
+  gap: 50px;
 }
 
 

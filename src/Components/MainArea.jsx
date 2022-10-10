@@ -16,7 +16,7 @@ export const MainArea = () => {
         </div>
         <div className="main-btn-container">
           <button>Register for Free</button>
-          <button>Register for Free</button>
+          <button>Explore Tracks</button>
         </div>
         <div style={{ color: "#48BF84", fontSize: "0.875rem" }}>
           Registration Closing: 8:00 PM, 10th October, 2022
