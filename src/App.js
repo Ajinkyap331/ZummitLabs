@@ -5,10 +5,11 @@ import { WorkExperience } from './Components/MainPageComponents';
 import { PlacementOffers } from './Components/MainPageComponents';
 import { HowItWorks } from './Components/MainPageComponents';
 import { UniqueFeatures } from './Components/MainPageComponents';
+import { Footer } from './Components/MainPageComponents';
 import './App.css';
 import './Styles/Navbar.css'
 import './Styles/MainArea.css'
-import './Styles/TrustedComp.css'
+import './Styles/MainPageComponents.css'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <PlacementOffers />
       <HowItWorks />
       <UniqueFeatures />
+      <Footer />
     </div>
   );
 }

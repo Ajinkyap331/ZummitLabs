@@ -28,7 +28,9 @@ export const WorkExperience = () => {
         <div>
           <section>Real Work Experience Platform</section>
         </div>
-        <div>Experience gets you the job. Not your degree.</div>
+        <div>
+          Experience gets you the job. <br /> Not your degree.
+        </div>
         <div>
           Trainity is experience providing platform to help you break out of no
           experience and no job cycle in your resume.
@@ -147,7 +149,7 @@ export const UniqueFeatures = () => {
               8+ 4(additional) weeks of rigorous training in a real work
               environment
             </div>
-          </section>  
+          </section>
           <section>
             <img src="https://i.ibb.co/Ph5cVZX/guarantee.png"></img>
             <div>On the Job Training</div>
@@ -181,7 +183,35 @@ export const UniqueFeatures = () => {
             </div>
           </section>
         </div>
-        
+      </div>
+    </div>
+  );
+};
+
+export const Footer = () => {
+  return (
+    <div className="footer">
+      <section>Start learning today</section>
+      <article>
+        Build work experience which helps you break top tech jobs and
+        internships.
+      </article>
+      <div>
+        <button>Apply Now</button>
+      </div>
+      <div className="footer-content">
+        <section>
+          Trainity provides Internships, live projects & internships with top
+          startups to help students learn through practical and industrial
+          experience and help them get the job of their dream in 12 weeks.
+        </section>
+        <section>Company Contact Us Data Analytics Digital Marketing</section>
+        <section>Support Terms & Conditions Privacy Policy</section>
+      </div>
+      <section className="footer-line"><div></div></section>
+      <div>
+        ©2022 This page is protected by reCAPTCHA and is subject to the Google
+        Privacy Policy and Terms of Service..
       </div>
     </div>
   );
