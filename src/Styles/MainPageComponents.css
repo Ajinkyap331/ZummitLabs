@@ -54,13 +54,13 @@
   align-items: center;
 }
 
-.work-experience > section :nth-child(1) {
+.work-experience > section > :nth-child(1) {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.work-experience > section :nth-child(1) > section {
+.work-experience > section > :nth-child(1) > section {
   background-color: white;
   width: max-content;
   font-size: 14px;
@@ -70,7 +70,7 @@
   padding: 4px 8px;
 }
 
-.work-experience > section :nth-child(2) {
+.work-experience > section > :nth-child(2) {
   width: 80%;
   color: #1f2937;
   font-size: 3rem;
@@ -79,17 +79,17 @@
   text-align: center;
 }
 
-.work-experience > section :nth-child(3) {
+.work-experience > section > :nth-child(3) {
   width: 80%;
   color: #1f2937;
   text-align: center;
 }
 
-.work-experience > section :nth-child(4) {
+.work-experience > section > :nth-child(4) {
   display: flex;
   justify-content: center;
 }
-.work-experience > section :nth-child(4) > button {
+.work-experience > section  > :nth-child(4) > button {
   padding: 0.75rem 1.5rem;
   justify-content: center;
   align-items: center;
@@ -165,6 +165,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  padding: 50px 0;
 }
 
 .unique-features > div {
@@ -202,7 +203,7 @@
   margin: 30px 30px 30px 0;
 }
 
-.unique-features > div > div > section :nth-child(2) {
+.unique-features > div > div > section > :nth-child(2) {
   font-weight: 600;
   font-size: 24px;
   line-height: 31px;
@@ -211,7 +212,7 @@
   margin: 0 0 16px;
 }
 
-.unique-features > div > div > section :nth-child(3) {
+.unique-features > div > div > section > :nth-child(3) {
   font-size: 15px;
   line-height: 27px;
   color: #3f4b52;
@@ -286,4 +287,198 @@
 .footer-line > div {
   width: 80%;
   border-bottom: 1px solid rgba(128, 128, 128, 0.323);
+}
+
+.student-thought {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* background-color: #00353c; */
+}
+
+.student-thought > section {
+  background-color: #fcd8ca;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  height: 500px;
+  /* justify-content: center; */
+  padding: 50px 0;
+  gap: 50px;
+  border-radius: 25px;
+  align-items: center;
+}
+
+.student-thought > section > :nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.student-thought > section > :nth-child(1) > section {
+  background-color: white;
+  width: max-content;
+  font-size: 14px;
+  font-weight: 700;
+  color: #1f2937;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.student-thought > section > :nth-child(2) {
+  width: 80%;
+  color: #1f2937;
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: 600;
+  text-align: center;
+}
+
+.student-thought > section > :nth-child(3) {
+  width: 80%;
+  color: #1f2937;
+  text-align: center;
+}
+
+.student-thought-marq {
+  width: 99vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -300px;
+}
+
+.student-thought-marq > section {
+  animation: marquee 20s linear infinite;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  height: 150px;
+  min-width: 25rem;
+  margin-right: 2rem;
+  padding: 2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border-radius: 16px;
+  background-color: white;
+  color: #1f2937;
+}
+
+.student-thought-ratings {
+  display: flex;
+  width: 100%;
+}
+
+.student-thought-marq > section > section {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.student-thought-bg {
+  background-color: #00353c;
+  position: relative;
+  top: 850px;
+  z-index: -1;
+  width: 100%;
+  height: 600px;
+  margin-top: -550px;
+}
+
+.benefits-perks{
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  gap : 30px;
+}
+
+.benefits-perks > section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.benefits-perks > section > div {
+  width: max-content;
+  padding: 10px;
+  background-color: #fcd8ca;
+}
+
+.benefits-perks > :nth-child(2) {
+  color: #1f2937;
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: 600;
+  text-align: center;
+}
+
+.benefits-perks > :nth-child(3){
+  font-size: 1.125rem;
+  text-align: center;
+  color: #4b5563;  
+}
+
+.benefits-perks > article{
+  display: flex;
+  gap : 50px;
+  justify-content: center;
+}
+
+.benefits-perks > article > div {
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+}
+
+.benefits-perks > article > div > section {
+  width: 350px;
+}
+
+.benefits-perks > article > section {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3f4b52;
+}
+
+.benefits-perks > article > div > section > img {
+  width: 50px;
+  height: 50px;
+  margin: 30px 30px 30px 0;
+}
+
+.benefits-perks > article > div > section :nth-child(2) {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: -0.05em;
+  color: #3f4b52;
+  margin: 0 0 16px;
+}
+
+.benefits-perks > article > div > section :nth-child(3) {
+  font-size: 15px;
+  line-height: 27px;
+  color: #3f4b52;
+}
+
+.benefits-perks >article > div > img {
+  object-fit: cover;
+  width: 30vw;
+  height: 100%;
+  border-radius: 18px;
 }

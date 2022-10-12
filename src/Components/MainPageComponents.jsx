@@ -1,4 +1,6 @@
 import React from "react";
+import StarIcon from "@mui/icons-material/Star";
+import { Avatar } from "@mui/material";
 
 export const TrustedComp = () => {
   return (
@@ -208,11 +210,195 @@ export const Footer = () => {
         <section>Company Contact Us Data Analytics Digital Marketing</section>
         <section>Support Terms & Conditions Privacy Policy</section>
       </div>
-      <section className="footer-line"><div></div></section>
+      <section className="footer-line">
+        <div></div>
+      </section>
       <div>
         ©2022 This page is protected by reCAPTCHA and is subject to the Google
         Privacy Policy and Terms of Service..
       </div>
+    </div>
+  );
+};
+
+export const StudentsThought = () => {
+  return (
+    <>
+      <div className="student-thought-bg"></div>
+      <div className="student-thought">
+        <section>
+          <div>
+            <section>Testimonials</section>
+          </div>
+          <div>What our students have to say</div>
+          <div>
+            Get to know how Trainity's Programs have helped students upskill and
+            achieve their goals effectively and efficiently.
+          </div>
+        </section>
+      </div>
+      <div className="student-thought-marq">
+        <section>
+          <div className="student-thought-ratings">
+            <StarIcon />
+            <StarIcon />
+            <StarIcon />
+            <StarIcon />
+            <StarIcon />
+          </div>
+          <div>
+            This program is jam-packed with super valuable content, assignments
+            and projects.
+          </div>
+          <section>
+            <Avatar />
+            <div>
+              <div>Rohit Darade</div>
+              <div>Student Data Analytics</div>
+            </div>
+          </section>
+        </section>
+        <section>
+          <div className="student-thought-ratings">
+            <StarIcon />
+            <StarIcon />
+            <StarIcon />
+            <StarIcon />
+            <StarIcon />
+          </div>
+          <div>
+            This program is jam-packed with super valuable content, assignments
+            and projects.
+          </div>
+          <section>
+            <Avatar />
+            <div>
+              <div>Rohit Darade</div>
+              <div>Student Data Analytics</div>
+            </div>
+          </section>
+        </section>
+        <section>
+          <div className="student-thought-ratings">
+            <StarIcon />
+            <StarIcon />
+            <StarIcon />
+            <StarIcon />
+            <StarIcon />
+          </div>
+          <div>
+            This program is jam-packed with super valuable content, assignments
+            and projects.
+          </div>
+          <section>
+            <Avatar />
+            <div>
+              <div>Rohit Darade</div>
+              <div>Student Data Analytics</div>
+            </div>
+          </section>
+        </section>
+        <section>
+          <div className="student-thought-ratings">
+            <StarIcon />
+            <StarIcon />
+            <StarIcon />
+            <StarIcon />
+            <StarIcon />
+          </div>
+          <div>
+            This program is jam-packed with super valuable content, assignments
+            and projects.
+          </div>
+          <section>
+            <Avatar />
+            <div>
+              <div>Rohit Darade</div>
+              <div>Student Data Analytics</div>
+            </div>
+          </section>
+        </section>
+        <section>
+          <div className="student-thought-ratings">
+            <StarIcon />
+            <StarIcon />
+            <StarIcon />
+            <StarIcon />
+            <StarIcon />
+          </div>
+          <div>
+            This program is jam-packed with super valuable content, assignments
+            and projects.
+          </div>
+          <section>
+            <Avatar />
+            <div>
+              <div>Rohit Darade</div>
+              <div>Student Data Analytics</div>
+            </div>
+          </section>
+        </section>
+      </div>
+    </>
+  );
+};
+
+export const BenefitsPerks = () => {
+  return (
+    <div className="benefits-perks">
+      <section>
+        <div>Benefits & Perks </div>
+      </section>
+      <div>
+        Grow your chances of getting hired <br />
+        from real work experience
+      </div>
+      <div>
+        Trainity's programs help you get not only theoretical but also practical
+        knowledge with hands-on <br /> projects and career coaching sessions for
+        4 weeks.
+      </div>
+      <article>
+        <div>
+          <section>
+            <img src="https://i.ibb.co/Ph5cVZX/guarantee.png"></img>
+            <div>On the Job Training</div>
+            <div>
+              8+ 4(additional) weeks of rigorous training in a real work
+              environment
+            </div>
+          </section>
+          <section>
+            <img src="https://i.ibb.co/Ph5cVZX/guarantee.png"></img>
+            <div>On the Job Training</div>
+            <div>
+              8+ 4(additional) weeks of rigorous training in a real work
+              environment
+            </div>
+          </section>
+        </div>
+        <div>
+          <img src="https://uploads-ssl.webflow.com/6315b5ac8aa4049b2a94f2fb/63164673553f4178d71733fa_smiling-indian-man-casual-close-with-laptop-backpack-pastel-wall_496169-1583-p-800.jpg" />
+        </div>
+        <div>
+          <section>
+            <img src="https://i.ibb.co/Ph5cVZX/guarantee.png"></img>
+            <div>On the Job Training</div>
+            <div>
+              8+ 4(additional) weeks of rigorous training in a real work
+              environment
+            </div>
+          </section>
+          <section>
+            <img src="https://i.ibb.co/Ph5cVZX/guarantee.png"></img>
+            <div>On the Job Training</div>
+            <div>
+              8+ 4(additional) weeks of rigorous training in a real work
+              environment
+            </div>
+          </section>
+        </div>
+      </article>
     </div>
   );
 };
