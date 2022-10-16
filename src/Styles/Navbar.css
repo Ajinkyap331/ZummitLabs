@@ -3,7 +3,6 @@
   justify-content: space-between;
   padding: 10px 130px;
   box-shadow: 0 8px 16px rgb(0 0 0 / 6%);
-
 }
 
 .left-navbar > img {
@@ -30,3 +29,18 @@
 }
 
   
+@media only screen and (max-width: 700px) {
+  .navbar{
+    padding: 10px 50px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar{
+    padding: 10px 10px;
+  }
+
+  .right-navbar {
+    gap: 18px;
+  }
+}

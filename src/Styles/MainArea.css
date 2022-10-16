@@ -25,12 +25,11 @@
   width: 500px;
 }
 
-
-.main-btn-container > button{
-    margin: 10px 0;
+.main-btn-container > button {
+  margin: 10px 10px;
 }
 
-.main-btn-container :first-child {
+.register-for-free-btn {
   background-color: #48bf84;
   text-decoration: none;
   color: white;
@@ -44,7 +43,7 @@
   max-width: 288px;
 }
 
-.main-btn-container :nth-child(2) {
+.register-for-free-btn2 {
   background-color: #0d2129;
   color: white;
   text-decoration: none;
@@ -53,4 +52,32 @@
   line-height: 1.5;
   max-width: 229px;
   border-radius: 0.3125rem;
+}
+
+.dream-job {
+  font-size: 3rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .main-area {
+    flex-direction: column;
+    margin-top: 10vh;
+  }
+
+  .left-main {
+    gap: 12px;
+  }
+
+  .dream-job {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .dream-job {
+    font-size: 1.5rem;
+  }
+  .left-main {
+    margin-top: 12vh;
+  }
 }

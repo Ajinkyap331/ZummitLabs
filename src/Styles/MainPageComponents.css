@@ -9,6 +9,7 @@
   font-weight: 700;
   margin-top: 20px;
   color: #00353b;
+  margin-top: 100px;
 }
 
 #maindiv {
@@ -16,23 +17,39 @@
   white-space: nowrap;
   display: flex;
   width: 97%;
-  padding: 20px;
+  padding: 20px 0;
 }
 
-#div1 {
-  display: inline-block;
-  animation: marquee 20s linear infinite;
+@keyframes marqueel {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.trusted-marquee {
   display: flex;
   width: max-content;
   gap: 100px;
+  animation: marquee 35s linear infinite;
+}
+
+.trusted-marquee:hover {
+  animation-play-state: paused;
+}
+
+.trusted-marquee > div > img {
+  height: 50px;
 }
 
 @keyframes marquee {
   from {
-    transform: translateX(130%);
+    transform: translateX(50%);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateX(-220%);
   }
 }
 
@@ -89,7 +106,7 @@
   display: flex;
   justify-content: center;
 }
-.work-experience > section  > :nth-child(4) > button {
+.work-experience > section > :nth-child(4) > button {
   padding: 0.75rem 1.5rem;
   justify-content: center;
   align-items: center;
@@ -155,6 +172,12 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+.how-it-works-left > section > div > section {
+  font-size: 21px;
+  line-height: 34px;
+  font-weight: bolder;
 }
 
 .how-it-works-right > img {
@@ -223,6 +246,7 @@
   width: 100%;
   height: 100vh;
   color: white;
+  margin-top: -500px;
 }
 
 .footer > section {
@@ -301,7 +325,7 @@
   display: flex;
   flex-direction: column;
   width: 80vw;
-  height: 500px;
+  height: 800px;
   /* justify-content: center; */
   padding: 50px 0;
   gap: 50px;
@@ -344,10 +368,31 @@
   width: 99vw;
   overflow: hidden;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   position: relative;
-  top: -300px;
+  top: -600px;
+  padding: 30px 0;
 }
+
+.student-thought-marq2 {
+  width: 98vw;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  top: -600px;
+  padding: 30px 0;
+  gap: 50px;
+  /* animation: marquee2 10s linear infinite; */
+}
+
+/* @keyframes marquee2 {
+  from {
+    transform: translateX(20%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+} */
 
 .student-thought-marq > section {
   animation: marquee 20s linear infinite;
@@ -373,9 +418,33 @@
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  border-radius: 16px;
+  border-radius: 32px;
   background-color: white;
   color: #1f2937;
+}
+
+.student-thought-marq2 > section {
+  animation: marquee 15s linear infinite;
+  /* display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 860px;
+  height: 315px;
+  min-width: 25rem;
+  border-radius: 16px;
+  background-color: white;
+  color: #1f2937; */
+}
+
+.student-thought-marq2 :hover {
+  /* animation-play-state: paused; */
+}
+
+.student-thought-marq2 > section > iframe {
+  border-radius: 16px;
+  outline: none;
+  border: none;
 }
 
 .student-thought-ratings {
@@ -393,18 +462,18 @@
 .student-thought-bg {
   background-color: #00353c;
   position: relative;
-  top: 850px;
+  top: 1250px;
   z-index: -1;
   width: 100%;
-  height: 600px;
-  margin-top: -550px;
+  height: 1000px;
+  margin-top: -950px;
 }
 
-.benefits-perks{
+.benefits-perks {
   padding: 50px 0;
   display: flex;
   flex-direction: column;
-  gap : 30px;
+  gap: 30px;
 }
 
 .benefits-perks > section {
@@ -427,15 +496,15 @@
   text-align: center;
 }
 
-.benefits-perks > :nth-child(3){
+.benefits-perks > :nth-child(3) {
   font-size: 1.125rem;
   text-align: center;
-  color: #4b5563;  
+  color: #4b5563;
 }
 
-.benefits-perks > article{
+.benefits-perks > article {
   display: flex;
-  gap : 50px;
+  gap: 50px;
   justify-content: center;
 }
 
@@ -476,9 +545,70 @@
   color: #3f4b52;
 }
 
-.benefits-perks >article > div > img {
+.benefits-perks > article > div > img {
   object-fit: cover;
   width: 30vw;
   height: 100%;
   border-radius: 18px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .how-it-works {
+    flex-direction: column;
+  }
+
+  .unique-features > div > div > section {
+    width: 250px;
+  }
+
+  .benefits-perks > article {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .benefits-perks > article > div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+  }
+  .trusted-comp {
+    margin-top: 40vh;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  /* .main-area{
+    flex-direction: column;
+    margin-top: 38vh;
+  } */
+
+  .right-main > img {
+    width: 250px;
+  }
+
+  .work-experience > section > :nth-child(2) {
+    font-size: 1rem;
+  }
+
+  .how-it-works-left {
+    width: 80%;
+  }
+
+  .benefits-perks > :nth-child(2) {
+    font-size: 1rem;
+  }
+
+  .benefits-perks > :nth-child(3) {
+    font-size: 0.825rem;
+  }
+
+  .benefits-perks > article > div {
+    width : 80%;
+    gap : 18px;
+  }
+
+  .student-thought > section > :nth-child(2) {
+    font-size: 1rem;
+  }
 }

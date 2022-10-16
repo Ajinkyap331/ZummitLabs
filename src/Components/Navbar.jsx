@@ -11,7 +11,7 @@ export const Navbar = () => {
         <div>Tracks</div>
         <div>Fees</div>
         <div>FAQ's</div>
-        <button>Log In</button>
+        {/* <button>Log In</button> */}
       </section>
     </div>
   );

@@ -1,22 +1,54 @@
 import React from "react";
 import StarIcon from "@mui/icons-material/Star";
 import { Avatar } from "@mui/material";
+import { PopupButton } from "@typeform/embed-react";
+import { Card } from "./Card";
 
 export const TrustedComp = () => {
   return (
     <>
       <div className="trusted-comp">Trusted by the world's best companies</div>
       <div id="maindiv">
-        <div id="div1">
-          <div>Google</div>
-          <div>Google</div>
-          <div>Google</div>
-          <div>Google</div>
-          <div>Google</div>
-          <div>Google</div>
-          <div>Google</div>
-          <div>Google</div>
-          <div>Google</div>
+        <div className="trusted-marquee">
+          <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"></img>
+          </div>
+          <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"></img>
+          </div>
+          <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"></img>
+          </div>
+          <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"></img>
+          </div>
+          <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"></img>
+          </div>
+          <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"></img>
+          </div>
+          <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"></img>
+          </div>
+          <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"></img>
+          </div>
+          <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"></img>
+          </div>
+          <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"></img>
+          </div>
+          <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"></img>
+          </div>
+          <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"></img>
+          </div>
+          <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"></img>
+          </div>
         </div>
       </div>
     </>
@@ -38,7 +70,13 @@ export const WorkExperience = () => {
           experience and no job cycle in your resume.
         </div>
         <div>
-          <button>Enroll Now</button>
+          <PopupButton
+            id="DiK3oTff"
+            style={{ fontSize: 20 }}
+            className="register-for-free-btn"
+          >
+            Enroll Now
+          </PopupButton>
         </div>
       </section>
     </div>
@@ -52,29 +90,31 @@ export const PlacementOffers = () => {
         Placement Offers at 70+ partner companies
       </div>
       <div id="maindiv">
-        <div id="div1">
-          <div>Google</div>
-          <div>Google</div>
-          <div>Google</div>
-          <div>Google</div>
-          <div>Google</div>
-          <div>Google</div>
-          <div>Google</div>
-          <div>Google</div>
-          <div>Google</div>
+        <div className="cards-collection">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
         </div>
       </div>
       <div id="maindiv">
-        <div id="div1">
-          <div>Google</div>
-          <div>Google</div>
-          <div>Google</div>
-          <div>Google</div>
-          <div>Google</div>
-          <div>Google</div>
-          <div>Google</div>
-          <div>Google</div>
-          <div>Google</div>
+        <div className="cards-collection">
+        <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
         </div>
       </div>
     </>
@@ -337,6 +377,64 @@ export const StudentsThought = () => {
               <div>Student Data Analytics</div>
             </div>
           </section>
+        </section>
+      </div>
+
+      <div className="student-thought-marq2">
+        <section>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/pTY6TyUoqjM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/pTY6TyUoqjM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/pTY6TyUoqjM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/pTY6TyUoqjM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/pTY6TyUoqjM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </section>
       </div>
     </>
