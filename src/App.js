@@ -8,24 +8,26 @@ import { UniqueFeatures } from './Components/MainPageComponents';
 import { Footer } from './Components/MainPageComponents';
 import { StudentsThought } from './Components/MainPageComponents';
 import { BenefitsPerks } from './Components/MainPageComponents';
-import './App.css';
-import './Styles/Navbar.css'
-import './Styles/MainArea.css'
-import './Styles/MainPageComponents.css'
+import { CompanyThought } from './Components/MainPageComponents';
+// import './App.css';
+// import './Styles/Navbar.css'
+// import './Styles/MainArea.css'
+// import './Styles/MainPageComponents.css'
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <MainArea />
+      {/* <MainArea />
       <TrustedComp />
       <WorkExperience />
       <PlacementOffers />
       <HowItWorks />
       <UniqueFeatures />
       <BenefitsPerks />
+      <CompanyThought/>
       <StudentsThought />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

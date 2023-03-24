@@ -9,7 +9,7 @@
   font-weight: 700;
   margin-top: 20px;
   color: #00353b;
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 
 #maindiv {
@@ -22,10 +22,19 @@
 
 @keyframes marqueel {
   0% {
-    transform: translateX(100%);
+    transform: translateX(50%);
   }
   100% {
     transform: translateX(-100%);
+  }
+}
+
+@keyframes marqueel2 {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-200%);
   }
 }
 
@@ -33,7 +42,7 @@
   display: flex;
   width: max-content;
   gap: 100px;
-  animation: marquee 35s linear infinite;
+  animation: marqueel 35s linear infinite;
 }
 
 .trusted-marquee:hover {
@@ -60,7 +69,7 @@
 }
 
 .work-experience > section {
-  background-color: #fcd8ca;
+  background-color: #8685ccbd;
   display: flex;
   flex-direction: column;
   width: 80vw;
@@ -74,7 +83,7 @@
 .work-experience > section > :nth-child(1) {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
 }
 
 .work-experience > section > :nth-child(1) > section {
@@ -112,7 +121,6 @@
   align-items: center;
   border-style: solid;
   border-width: 1px;
-  border-color: #1f2937;
   border-radius: 8px;
   background-color: #1f2937;
   color: #fff;
@@ -139,6 +147,7 @@
   letter-spacing: -0.05em;
   color: #3f4b52;
   margin: 0 7vw 16px;
+  margin-top : 100px;
 }
 
 .how-it-works {
@@ -242,11 +251,11 @@
 }
 
 .footer {
-  background-color: #00353c;
+  background-color: #C67F2C;
   width: 100%;
   height: 100vh;
   color: white;
-  margin-top: -500px;
+  margin-top: -200px;
 }
 
 .footer > section {
@@ -280,8 +289,7 @@
   justify-content: center;
   align-items: center;
   border-style: solid;
-  border-width: 1px;
-  border-color: #22a45a;
+  border-width: 1px;  
   border-radius: 8px;
   background-color: #22a45a;
   transition: background-color 300ms ease, -webkit-transform 300ms ease;
@@ -317,15 +325,16 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  /* margin-top : -100px; f */
   /* background-color: #00353c; */
 }
 
 .student-thought > section {
-  background-color: #fcd8ca;
+  background-color: #8685cc;
   display: flex;
   flex-direction: column;
   width: 80vw;
-  height: 800px;
+  height: 550px;
   /* justify-content: center; */
   padding: 50px 0;
   gap: 50px;
@@ -365,37 +374,40 @@
 }
 
 .student-thought-marq {
-  width: 99vw;
   overflow: hidden;
-  display: flex;
-  /* justify-content: center; */
   position: relative;
-  top: -600px;
+  top: -350px;
   padding: 30px 0;
+}
+
+.student-thought-marq > div {
+  display: flex;
+  gap: 20px;
+  animation: marqueel2 25s linear infinite;
 }
 
 .student-thought-marq2 {
-  width: 98vw;
+  /* width: 98vw; */
+
   overflow: hidden;
-  display: flex;
+  white-space: nowrap;
   position: relative;
-  top: -600px;
+  top: -380px;
   padding: 30px 0;
-  gap: 50px;
-  /* animation: marquee2 10s linear infinite; */
 }
 
-/* @keyframes marquee2 {
-  from {
-    transform: translateX(20%);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-} */
+.student-thought-marq2 > div {
+  display: flex;
+  gap: 50px;
+  animation: marqueel2 25s linear infinite;
+}
 
-.student-thought-marq > section {
-  animation: marquee 20s linear infinite;
+.student-thought-marq2 :hover {
+  animation-play-state: paused;
+}
+
+.student-thought-marq > div > section {
+  /* animation: marquee 20s linear infinite; */
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -421,27 +433,10 @@
   border-radius: 32px;
   background-color: white;
   color: #1f2937;
+  /* animation: marqueel 15s linear infinite; */
 }
 
-.student-thought-marq2 > section {
-  animation: marquee 15s linear infinite;
-  /* display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 860px;
-  height: 315px;
-  min-width: 25rem;
-  border-radius: 16px;
-  background-color: white;
-  color: #1f2937; */
-}
-
-.student-thought-marq2 :hover {
-  /* animation-play-state: paused; */
-}
-
-.student-thought-marq2 > section > iframe {
+.student-thought-marq2 > div > section > iframe {
   border-radius: 16px;
   outline: none;
   border: none;
@@ -452,7 +447,7 @@
   width: 100%;
 }
 
-.student-thought-marq > section > section {
+.student-thought-marq section > section {
   display: flex;
   gap: 20px;
   align-items: center;
@@ -460,7 +455,7 @@
 }
 
 .student-thought-bg {
-  background-color: #00353c;
+  background-color: #C67F2C;
   position: relative;
   top: 1250px;
   z-index: -1;
@@ -485,7 +480,7 @@
 .benefits-perks > section > div {
   width: max-content;
   padding: 10px;
-  background-color: #fcd8ca;
+  background-color: #8685ccec;
 }
 
 .benefits-perks > :nth-child(2) {
@@ -572,9 +567,9 @@
     width: 100%;
     justify-content: center;
   }
-  .trusted-comp {
-    margin-top: 40vh;
-  }
+  /* .trusted-comp {
+    margin-top: 15vh;
+  } */
 }
 
 @media only screen and (max-width: 400px) {
@@ -604,8 +599,8 @@
   }
 
   .benefits-perks > article > div {
-    width : 80%;
-    gap : 18px;
+    width: 80%;
+    gap: 18px;
   }
 
   .student-thought > section > :nth-child(2) {

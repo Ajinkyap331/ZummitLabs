@@ -105,7 +105,7 @@ export const PlacementOffers = () => {
       </div>
       <div id="maindiv">
         <div className="cards-collection">
-        <Card />
+          <Card />
           <Card />
           <Card />
           <Card />
@@ -261,6 +261,130 @@ export const Footer = () => {
   );
 };
 
+export const CompanyThought = () => {
+  return (
+    <>
+      <div className="student-thought-bg"></div>
+      <div className="student-thought">
+        <section>
+          <div>
+            <section>Testimonials</section>
+          </div>
+          <div>What our Company have to say</div>
+          <div>
+            Get to know how Trainity's Programs have helped students upskill and
+            achieve their goals effectively and efficiently.
+          </div>
+        </section>
+      </div>
+      <div className="student-thought-marq">
+        <div>
+          <section>
+            <div className="student-thought-ratings">
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+            </div>
+            <div>
+              This program is jam-packed with super valuable content,
+              assignments and projects.
+            </div>
+            <section>
+              <Avatar />
+              <div>
+                <div>Rohit Darade</div>
+                <div>Student Data Analytics</div>
+              </div>
+            </section>
+          </section>
+          <section>
+            <div className="student-thought-ratings">
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+            </div>
+            <div>
+              This program is jam-packed with super valuable content,
+              assignments and projects.
+            </div>
+            <section>
+              <Avatar />
+              <div>
+                <div>Rohit Darade</div>
+                <div>Student Data Analytics</div>
+              </div>
+            </section>
+          </section>
+          <section>
+            <div className="student-thought-ratings">
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+            </div>
+            <div>
+              This program is jam-packed with super valuable content,
+              assignments and projects.
+            </div>
+            <section>
+              <Avatar />
+              <div>
+                <div>Rohit Darade</div>
+                <div>Student Data Analytics</div>
+              </div>
+            </section>
+          </section>
+          <section>
+            <div className="student-thought-ratings">
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+            </div>
+            <div>
+              This program is jam-packed with super valuable content,
+              assignments and projects.
+            </div>
+            <section>
+              <Avatar />
+              <div>
+                <div>Rohit Darade</div>
+                <div>Student Data Analytics</div>
+              </div>
+            </section>
+          </section>
+          <section>
+            <div className="student-thought-ratings">
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+            </div>
+            <div>
+              This program is jam-packed with super valuable content,
+              assignments and projects.
+            </div>
+            <section>
+              <Avatar />
+              <div>
+                <div>Rohit Darade</div>
+                <div>Student Data Analytics</div>
+              </div>
+            </section>
+          </section>
+        </div>
+      </div>
+    </>
+  );
+};
+
 export const StudentsThought = () => {
   return (
     <>
@@ -277,165 +401,64 @@ export const StudentsThought = () => {
           </div>
         </section>
       </div>
-      <div className="student-thought-marq">
-        <section>
-          <div className="student-thought-ratings">
-            <StarIcon />
-            <StarIcon />
-            <StarIcon />
-            <StarIcon />
-            <StarIcon />
-          </div>
-          <div>
-            This program is jam-packed with super valuable content, assignments
-            and projects.
-          </div>
-          <section>
-            <Avatar />
-            <div>
-              <div>Rohit Darade</div>
-              <div>Student Data Analytics</div>
-            </div>
-          </section>
-        </section>
-        <section>
-          <div className="student-thought-ratings">
-            <StarIcon />
-            <StarIcon />
-            <StarIcon />
-            <StarIcon />
-            <StarIcon />
-          </div>
-          <div>
-            This program is jam-packed with super valuable content, assignments
-            and projects.
-          </div>
-          <section>
-            <Avatar />
-            <div>
-              <div>Rohit Darade</div>
-              <div>Student Data Analytics</div>
-            </div>
-          </section>
-        </section>
-        <section>
-          <div className="student-thought-ratings">
-            <StarIcon />
-            <StarIcon />
-            <StarIcon />
-            <StarIcon />
-            <StarIcon />
-          </div>
-          <div>
-            This program is jam-packed with super valuable content, assignments
-            and projects.
-          </div>
-          <section>
-            <Avatar />
-            <div>
-              <div>Rohit Darade</div>
-              <div>Student Data Analytics</div>
-            </div>
-          </section>
-        </section>
-        <section>
-          <div className="student-thought-ratings">
-            <StarIcon />
-            <StarIcon />
-            <StarIcon />
-            <StarIcon />
-            <StarIcon />
-          </div>
-          <div>
-            This program is jam-packed with super valuable content, assignments
-            and projects.
-          </div>
-          <section>
-            <Avatar />
-            <div>
-              <div>Rohit Darade</div>
-              <div>Student Data Analytics</div>
-            </div>
-          </section>
-        </section>
-        <section>
-          <div className="student-thought-ratings">
-            <StarIcon />
-            <StarIcon />
-            <StarIcon />
-            <StarIcon />
-            <StarIcon />
-          </div>
-          <div>
-            This program is jam-packed with super valuable content, assignments
-            and projects.
-          </div>
-          <section>
-            <Avatar />
-            <div>
-              <div>Rohit Darade</div>
-              <div>Student Data Analytics</div>
-            </div>
-          </section>
-        </section>
-      </div>
-
       <div className="student-thought-marq2">
-        <section>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/pTY6TyUoqjM"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </section>
-        <section>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/pTY6TyUoqjM"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </section>
-        <section>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/pTY6TyUoqjM"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </section>
-        <section>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/pTY6TyUoqjM"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </section>
-        <section>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/pTY6TyUoqjM"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </section>
+        <div>
+          <section>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/pTY6TyUoqjM"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </section>
+          <section>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/pTY6TyUoqjM"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </section>
+          <section>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/pTY6TyUoqjM"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </section>
+          <section>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/pTY6TyUoqjM"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </section>
+          <section>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/pTY6TyUoqjM"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </section>
+        </div>
       </div>
     </>
   );

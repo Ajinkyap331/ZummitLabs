@@ -2,9 +2,9 @@
   display: flex;
   height: 400px;
   color: #4b5563;
-  width: 88vw;
-  justify-content: space-evenly;
-  padding: 5vw;
+  width: 84vw;
+  justify-content: space-between;
+  padding: 7vh 7vw;
 }
 
 .left-main {
@@ -30,7 +30,7 @@
 }
 
 .register-for-free-btn {
-  background-color: #48bf84;
+  background-color: #8685cc;
   text-decoration: none;
   color: white;
   padding: 0.875rem 2.25rem;
@@ -61,11 +61,13 @@
 @media only screen and (max-width: 1000px) {
   .main-area {
     flex-direction: column;
-    margin-top: 10vh;
+    gap : 50px;
+    height: 80vh;
   }
 
   .left-main {
     gap: 12px;
+    align-items: center;
   }
 
   .dream-job {
